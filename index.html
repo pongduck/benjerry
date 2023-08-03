@@ -1,56 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>benjerry</title>
-  <link rel="style~sheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+
   <!-- icon -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+
 <body>
   <header>
-    <a href="#"><img src="img/logo-small.png" alt=""></a>
-    <ul>
-      <li>
-        <a href="#">아이스크림</a>
+    <div class="header_inner">
+      <div class="logo">
+        <a href="#"><img src="img/logo-small.png" alt=""></a>
+      </div>
+      <div class="nav">
         <ul>
-          <li><a href="#">파인트</a></li>
-          <li><a href="#">미니컵</a></li>
-          <li><a href="#">스쿱</a></li>
-          <li><a href="#">아이스크림을 마드는 방법</a></li>
-          <li><a href="#">맛의 무덤</a></li>
-          <li><a href="#">맛 전문가들</a></li>
+          <li class="main">
+            <a href="#">아이스크림</a>
+            <ul class="sub">
+              <li><a href="#">파인트</a></li>
+              <li><a href="#">미니컵</a></li>
+              <li><a href="#">스쿱</a></li>
+              <li><a href="#">아이스크림을 마드는 방법</a></li>
+              <li><a href="#">맛의 무덤</a></li>
+              <li><a href="#">맛 전문가들</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            <a href="#">가치관</a>
+            <ul class="sub">
+              <li><a href="#">브랜드를 운영하는 방법</a></li>
+              <li><a href="#">벤 앤 제리스 재단</a></li>
+              <li><a href="#">벤 앤 제리스의 사회 활동</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            <a href="#">회사 소개</a>
+            <ul class="sub">
+              <li><a href="#">문의</a></li>
+              <li><a href="#">우리가 비즈니스를 하는 곳</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            <a href="#">새로운 소식</a>
+          </li>
+          <li class="main">
+            <a href="#">햄버거자리</a>
+            <ul class="sub">
+              <li><a href="#">매장위치 찾기</a></li>
+              <li><a href="#">FFF</a></li>
+            </ul>
+          </li>
         </ul>
-      </li>
-      <li>
-        <a href="#">가치관</a>
-        <ul>
-          <li><a href="#">브랜드를 운영하는 방법</a></li>
-          <li><a href="#">벤 앤 제리스 재단</a></li>
-          <li><a href="#">벤 앤 제리스의 사회 활동</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">회사 소개</a>
-        <ul>
-          <li><a href="#">문의</a></li>
-          <li><a href="#">우리가 비즈니스를 하는 곳</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">새로운 소식</a>
-      </li>
-      <li>
-        <a href="#">햄버거자리</a>
-        <ul>
-          <li><a href="#">매장위치 찾기</a></li>
-          <li><a href="#">FFF</a></li>
-        </ul>
-      </li>
-    </ul>
-    <span class="material-symbols-outlined">search</span>
-    <input type="text">
+      </div>
+      <span class="material-symbols-outlined">search</span>
+      <form action="#">
+        <select name="Language" id="lang">
+            <option value="AU">호주</option>
+            <option value="AT">오스트리아</option>
+            <option value="BE">벨기에</option>
+            <option value="BR">브라질</option>
+            <option value="KR" selected>대한민국</option>
+            <option value="">캐나다</option>
+            <option value="">체코 공화국</option>
+            <option value="">덴마크</option>
+            <option value="">핀란드</option>
+            <option value="">프랑스</option>
+            <option value="">독일</option>
+            <option value="">그리스</option>
+            <option value="">아일랜드</option>
+            <option value="">이탈리아</option>
+            <option value="">멕시코</option>
+            <option value="">네덜란드</option>
+            <option value="">폴란드</option>
+            <option value="">미국</option>
+        </select>
+      </form>
+    </div>
   </header>
 
 <main>
@@ -182,5 +211,6 @@
   <p>개인정보</p>
   <p>사이트 맵</p>
 </footer>
+
 </body>
 </html>

@@ -1,2 +1,20 @@
 @charset "uft-8";
 @import "default.css"; 
+
+/* ----header--- */
+.header_inner{width: 100%; margin: 0 auto; background: #0a6082; display: block; position: relative; z-index: 1000; display: flex; justify-content: space-around; align-items: center;}
+.header_inner a{color: #fff;}
+.header_inner .nav{height: 100px; text-align: center;}
+.header_inner .nav>ul{display: flex; height: 100px; justify-content: center; cursor: pointer; gap: 20px;}
+.header_inner .nav>ul .main>a{font-size: 20px; font-weight: bold; height: 100px;}
+.header_inner .nav>ul .main{text-align: center; line-height: 2; position: relative;}
+.header_inner .nav ul .main .sub{overflow:hidden; opacity: 0; display: flex; width: 500px; height: 200px; position: absolute; z-index: 9999999;}
+.header_inner .nav ul .main .sub li{height: 60px;}
+
+.header_inner .nav ul .main:active .sub{opacity: 1; background-color: #070808;}
+.section .nav ul .main:hover {transition-duration: 3s;}
+.section .nav ul .main:hover>.sub { transition-duration: 1s;} 
+
+.header_inner select{margin-bottom: 10px; margin-top: 10px; outline: 0; background: #074f69;; color: #fff; border: 1px solid #074f69; padding: 4px; border-radius: 9px;}
+
+.sec1 img{width: 100%;}
