@@ -18,3 +18,21 @@
 .header_inner select{margin-bottom: 10px; margin-top: 10px; outline: 0; background: #074f69;; color: #fff; border: 1px solid #074f69; padding: 4px; border-radius: 9px;}
 
 .sec1 img{width: 100%;}
+
+.sec2{background-image: url("../img/v2-bg.webp"); width: 100%; margin: 0 auto; max-width: 1300px; display: flex; justify-content: space-around; text-align: center; height: 430px;}
+.sec2 div{margin: 60px; line-height: 2; text-align: center;}
+.sec2 img{width: 95px; margin: 10px auto;}
+.sec2 span{font-weight: bold;}
+.sec2 p{font-size: 16px;}
+.sec2 a{color: #0475a1; font-weight: bold; font-size: 18px;}
+
+.sec3{background-image: url("../img/bluebannerglobal_b.webp"); width: 100%; margin: 0 auto; max-width: 1300px; height: 420px;}
+.sec3 img{position: relative; right: 0; z-index: 199999; top: -25px; float: right;}
+
+.sec4{width: 100%; margin: 0 auto; max-width: 1300px; background: #d7e9fa;}
+.sec4 .fir {width: 100%; margin: 0 auto; }
+.sec4 .ice{display: flex; justify-content: space-between; width: 100%;}
+.sec4 .sec{ margin: 0 auto; border: 1px solid #0575a1;; background: #fff;}
+.sec4 p{}
+.sec4{}
+.sec4{}
